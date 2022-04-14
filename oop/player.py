@@ -16,8 +16,8 @@ class Player:
 
     def tiles(self):
         tmp = [
-            pygame.image.load('resources/images/dude.png'),
-            pygame.image.load('resources/images/dude2.png'),
+            pygame.image.load('resources/images/boy.png'),
+            pygame.image.load('resources/images/boy.png'),
         ]
         return pygame.transform.rotate(tmp[self.step//6], 360 - self.angle * 57.29)
 
